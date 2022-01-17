@@ -1,7 +1,7 @@
 #Day 005
 #Loops
 import random
-"""
+
 fruits = ["Apple", "Peach", "Pear", "Grapes", "Lime"]
 
 for fruit in fruits:
@@ -83,7 +83,6 @@ for i in range(1,101):
     print(f"Buzz Count is: {buzzCount}")
     print(f"FizzBuzz Count is: {fizzBuzzCount}")
 
-"""
 #Password Generator i cheated a little with the list to string conversation, used some of my old github code
 letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 numbers = ['1','2','3','4','5','6','7','8','9','0']
