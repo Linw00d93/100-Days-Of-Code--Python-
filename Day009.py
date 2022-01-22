@@ -1,7 +1,6 @@
 #Day009
 #Dic and nesting 
 
-"""
 family = {
     "Mom" :  "is the mom", 
     "dad" : "is the dad",
@@ -51,10 +50,8 @@ travel_log={
     "Mexico" : {"cities_visited": ["Mexico City","Iztapalapa de Cuitláhuac"], "total_visits": 2}
 }
 
-"""
 
 #Slient auction 
-import time
 from os import system, name
 bids = []
 highestBid = 0
@@ -70,11 +67,10 @@ name = str(input("Please enter your name\n"))
 bid = int(input("Please enter your bid \n"))
 add_new_bid(name,bid)
 
-time.sleep(2)
 if bid > highestBid:
     highestBid = bid
     highestBidder = name
-choice = str(input("Is there any other bidders \n Y or N \n"))
+choice = str(input("Is there any other bidders \nY or N \n"))
 while choice == "Y":
     system('clear')
     print("Welcome to the slient auction\n")
@@ -84,7 +80,7 @@ while choice == "Y":
         highestBid = bid
         highestBidder = name
     add_new_bid(name,bid)
-    choice = str(input("Is there any other bidders \n Y or N \n"))
+    choice = str(input("Is there any other bidders \nY or N \n"))
 
 else:
-   print(f"Highest bidder is {highestBidder} at price ${highestBid}")
+   print(f"Highest bidder is {highestBidder} at the price ${highestBid}")
