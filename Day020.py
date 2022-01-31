@@ -1,5 +1,12 @@
 #Day020
 #SNAKE?
+print("""   _____             _        
+  / ____|           | |       
+ | (___  _ __   __ _| | _____ 
+  \___ \| '_ \ / _` | |/ / _ \
+  ____) | | | | (_| |   <  __/
+ |_____/|_| |_|\__,_|_|\_\___|""")
+print("🐍")
 import numbers
 from turtle import *
 import random
